@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm("Index", "Time", FormMethod.Post))
+{
+    <p>姓名 : @Html.TextBox("name")</p>
+    <p>數字 : @Html.TextBox("num")</p>
+    <p>Hi, @ViewBag.name, 查詢時間為 : @ViewBag.result</p>
+    <input type="submit" vaalue="送出" />
+}
