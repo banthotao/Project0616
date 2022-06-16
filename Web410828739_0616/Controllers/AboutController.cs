@@ -9,7 +9,7 @@ namespace Web410828739_0616.Controllers
     public class AboutController : Controller
     {
         // GET: About
-        public ActionResult Index()
+        public ActionResult Test()
         {
             return View();
         }
